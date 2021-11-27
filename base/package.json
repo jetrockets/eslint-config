@@ -1,0 +1,21 @@
+{
+  "name": "@jetrockets-frontend/eslint-config-base",
+  "version": "0.0.2",
+  "description": "Base eslint configuration for JetRockets workspace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Maksim Romanov",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
