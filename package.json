@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@jetrockets-frontend/eslint-config-base": "^0.0.43",
+    "eslint": "^8.4.0"
+  }
+}
