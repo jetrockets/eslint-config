@@ -1,13 +1,15 @@
 {
-  "name": "@jetrockets/eslint-config-base",
-  "version": "0.0.515",
-  "description": "Base eslint configuration for JetRockets workspace.",
+  "name": "@jetrockets/eslint-config-typescript",
+  "version": "0.0.163",
+  "description": "Base typescript eslint configuration for JetRockets workspace.",
   "main": "index.js",
-  "repository":"https://github.com/jetrockets/eslint-config.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository":"https://github.com/jetrockets/eslint-config.git",
   "keywords": [
+    "typescript",
+    "eslint-typescript",
     "eslint",
     "eslintconfig"
   ],
@@ -18,8 +20,8 @@
   },
   "homepage": "https://github.com/jetrockets/eslint-config#readme",
   "dependencies": {
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-modules-newline": "^0.0.6"
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0"
   },
   "peerDependencies": {
     "eslint": ">= 3"

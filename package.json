@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@jetrockets/eslint-config-base": "^0.0.513",
+    "eslint": "^8.4.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "lint:fix": "eslint ./ --ext .js,.ts --quiet --fix --ignore-path ./.gitignore",
+    "lint": "yarn lint:fix"
+  },
+  "pre-commit": "lint"
+}
