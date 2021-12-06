@@ -1,14 +1,11 @@
 {
-  "name": "@jetrockets-frontend/eslint-config-base",
-  "version": "0.0.43",
+  "name": "@jetrockets/eslint-config-base",
+  "version": "0.0.434",
   "description": "Base eslint configuration for JetRockets workspace.",
   "main": "index.js",
+  "repository":"https://github.com/jetrockets/eslint-config.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/jetrockets/eslint-config.git"
   },
   "keywords": [
     "eslint",
