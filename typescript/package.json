@@ -1,15 +1,12 @@
 {
   "name": "@jetrockets-frontend/eslint-config-typescript",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Base typescript eslint configuration for JetRockets workspace.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/jetrockets/eslint-config.git"
-  },
+  "repository":"https://github.com/jetrockets/eslint-config.git",
   "keywords": [
     "typescript",
     "eslint-typescript",
