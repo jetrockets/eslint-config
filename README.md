@@ -1,6 +1,6 @@
-[![eslint-config-base](https://badge.fury.io/js/@jetrockets%2Feslint-config-base.svg)](https://badge.fury.io/js/@jetrockets%2Feslint-config-base)
+<!-- [![eslint-config-base](https://badge.fury.io/js/@jetrockets%2Feslint-config-base.svg)](https://badge.fury.io/js/@jetrockets%2Feslint-config-base)
 [![eslint-typescript](https://badge.fury.io/js/@jetrockets%2Feslint-config-typescript.svg)](https://badge.fury.io/js/@jetrockets%2Feslint-config-typescript)
-[![eslint-react](https://badge.fury.io/js/@jetrockets%2Feslint-config-react.svg)](https://badge.fury.io/js/@jetrockets%2Feslint-config-react)
+[![eslint-react](https://badge.fury.io/js/@jetrockets%2Feslint-config-react.svg)](https://badge.fury.io/js/@jetrockets%2Feslint-config-react) -->
 
 #### JetRockets eslint configurations.
 
