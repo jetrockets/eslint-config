@@ -1,6 +1,6 @@
 {
   "name": "@jetrockets/eslint-config-base",
-  "version": "0.0.5",
+  "version": "0.0.513",
   "description": "Base eslint configuration for JetRockets workspace.",
   "main": "index.js",
   "repository":"https://github.com/jetrockets/eslint-config.git",

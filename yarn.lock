@@ -31,10 +31,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@jetrockets-frontend/eslint-config-base@^0.0.43":
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/@jetrockets-frontend/eslint-config-base/-/eslint-config-base-0.0.43.tgz#8620fb39d8fd7beb0770933243275c39207a9709"
-  integrity sha512-xFGjG7/PbzCTu2yX1I7LwP6GvelYAdkynfcOrjAIUgs2P+5KPfn30i18ArzXmuKrEtWHDijcM3MBDPmY3SYLWg==
+"@jetrockets/eslint-config-base@^0.0.513":
+  version "0.0.513"
+  resolved "https://registry.yarnpkg.com/@jetrockets/eslint-config-base/-/eslint-config-base-0.0.513.tgz#5040a9e13c3ad3416833cb338f4cecf59f76f108"
+  integrity sha512-5lJwmYeaHfBMNL+M9CBeVqb9AIc5hXi4TlxO7yFEiZsFc2iVb7LYm7f9QrrB2u7rsK2hLAyp2vd3ciCSy/A5yg==
   dependencies:
     eslint-plugin-import "^2.25.3"
     eslint-plugin-modules-newline "^0.0.6"
@@ -798,9 +798,9 @@ natural-compare@^1.4.0:
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
 object-inspect@^1.11.0, object-inspect@^1.9.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.11.0.tgz#9dceb146cedd4148a0d9e51ab88d34cf509922b1"
-  integrity sha512-jp7ikS6Sd3GxQfZJPyH3cjcbJF6GZPClgdV+EFygjFLQ5FmW/dRUnTd9PQ9k0JhoNDabWFbpF1yCdSWCC6gexg==
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.11.1.tgz#d4bd7d7de54b9a75599f59a00bd698c1f1c6549b"
+  integrity sha512-If7BjFlpkzzBeV1cqgT3OSWT3azyoxDGajR+iGnFBfVV2EWyDyWaZZW2ERDjUaY2QM8i5jI3Sj7mhsM4DDAqWA==
 
 object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"

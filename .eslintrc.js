@@ -1,1 +1,1 @@
-module.exports = { 'extends': '@jetrockets-frontend/eslint-config-base' };
+module.exports = { 'extends': '@jetrockets/eslint-config-base' };

@@ -1,6 +1,6 @@
 {
   "name": "@jetrockets/eslint-config-typescript",
-  "version": "0.0.16",
+  "version": "0.0.161",
   "description": "Base typescript eslint configuration for JetRockets workspace.",
   "main": "index.js",
   "scripts": {
