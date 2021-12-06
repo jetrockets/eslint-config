@@ -2,6 +2,6 @@
 
 > Packages are distributed by [jetrockets-frontend](https://www.npmjs.com/org/jetrockets-frontend) scope
 
-- [eslint-config-base](https://www.npmjs.com/package/@jetrockets-frontend/eslint-config-base)
-- [eslint-typescript](https://www.npmjs.com/package/@jetrockets-frontend/eslint-config-typescript)
-- [eslint-react](https://www.npmjs.com/package/@jetrockets-frontend/eslint-config-react)
+- [eslint-config-base](https://github.com/jetrockets/eslint-config/packages/1134972) [![npm version](https://badge.fury.io/rb/metka.svg)](https://github.com/jetrockets/eslint-config/packages/1134972)
+- [eslint-typescript](https://github.com/jetrockets/eslint-config/packages/1134979)
+- [eslint-react](https://github.com/jetrockets/eslint-config/packages/1134980)
