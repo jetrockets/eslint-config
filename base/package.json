@@ -1,6 +1,6 @@
 {
   "name": "@jetrockets/eslint-config-base",
-  "version": "0.0.515",
+  "version": "0.0.5213",
   "description": "Base eslint configuration for JetRockets workspace.",
   "main": "index.js",
   "repository":"https://github.com/jetrockets/eslint-config.git",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/jetrockets/eslint-config#readme",
   "dependencies": {
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-modules-newline": "^0.0.6"
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "eslint-plugin-newline-destructuring": "^1.0.1"
   },
   "peerDependencies": {
     "eslint": ">= 3"

@@ -14,7 +14,7 @@ module.exports = {
   },
 
   'plugins': ['react'],
-  
+
   'rules': {
     'react/display-name': 0,
     'value-keyword-case': 0,
@@ -41,7 +41,7 @@ module.exports = {
       },
     ],
   },
-  
+
   'settings': {
     'react': { 'version': 'detect' },
     'import/resolver': {

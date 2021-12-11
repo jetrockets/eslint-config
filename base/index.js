@@ -5,30 +5,31 @@ module.exports = {
     'es2021': true
   },
   'extends': 'eslint:recommended',
-  'plugins': ['import', 'modules-newline'],
+  'plugins': ['import', 'modules-newline', 'newline-destructuring'],
   'parserOptions': {
     'sourceType': 'module',
-    'ecmaVersion': 13
+    'ecmaVersion': 12
   },
   'rules': {
-    'indent': [
-      'error',
-      2
-    ],
-    'linebreak-style': [
-      'error',
-      'unix'
-    ],
-    'quotes': [
-      'error',
-      'single'
-    ],
-    'semi': [
-      'error',
-      'always'
-    ],
+    'modules-newline/import-declaration-newline': 'warn',
+    'modules-newline/export-declaration-newline': 'warn',
+    'indent': ['error', 2],
+    'linebreak-style': ['error', 'unix'],
+    'quotes': ['error', 'single'],
+    'semi': ['error', 'always'],
     'object-curly-spacing': ['error', 'always'],
-    'object-curly-newline': ['error', { 'multiline': true, 'minProperties': 4 }],
+    'object-curly-newline': ['error', {
+      'multiline': true,
+      'minProperties': 4
+    }],
+    'padded-blocks': ['error', 'never'],
+    'no-trailing-spaces': 'error',
+    'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+    'block-spacing': [2, 'always'],
+    'newline-destructuring/newline': 'error',
+    'comma-spacing': 'error',
+    'object-property-newline': ['error', { 'allowAllPropertiesOnSameLine': true }],
+    'comma-dangle': ['error', 'never'],
     'import/order': [
       'error',
       {
@@ -36,17 +37,17 @@ module.exports = {
         'newlines-between': 'always',
         'alphabetize': {
           'order': 'asc',
-          'caseInsensitive': true,
-        },
-      },
-    ],
+          'caseInsensitive': true
+        }
+      }
+    ]
   },
   'settings': {
     'import/resolver': {
       'node': {
         'moduleDirectory': ['node_modules', ''],
-        'extensions': ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    },
-  },
+        'extensions': ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  }
 };
