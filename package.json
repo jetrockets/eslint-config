@@ -1,12 +1,17 @@
 {
   "devDependencies": {
-    "@jetrockets/eslint-config-base": "^0.0.513",
-    "eslint": "^8.4.0",
-    "pre-commit": "^1.2.2"
+    "eslint": "^8.14.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2"
   },
   "scripts": {
-    "lint:fix": "eslint ./ --ext .js,.ts --quiet --fix --ignore-path ./.gitignore",
-    "lint": "yarn lint:fix"
+    "prepare": "husky install"
   },
-  "pre-commit": "lint"
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
 }
