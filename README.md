@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jetrockets/eslint-config">
-    <img src="https://github.com//jetrockets/eslint-config/raw/master/images/logo.png" alt="Logo" width="480">
+    <img src="https://github.com/jetrockets/eslint-config/raw/master/images/logo.png" alt="Logo" width="480">
   </a>
 
   <h3 align="center">JetRockets Standarts</h3>
@@ -26,17 +26,15 @@
 </div>
 <br />
 
-
 ### Available configurations
 
 > Packages are distributed by [@jetrockets](https://www.npmjs.com/org/jetrockets) scope
 
-* [eslint-config-base](https://github.com/jetrockets/eslint-config/packages/1134972)
-* [eslint-config-typescript](https://github.com/jetrockets/eslint-config/packages/1134979)
-* [eslint-config-react](https://github.com/jetrockets/eslint-config/packages/1134980)
+- [eslint-config-base](https://github.com/jetrockets/eslint-config/packages/1134972)
+- [eslint-config-typescript](https://github.com/jetrockets/eslint-config/packages/1134979)
+- [eslint-config-react](https://github.com/jetrockets/eslint-config/packages/1134980)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 <!-- ## [@jetrockets/eslint-config-base](https://github.com/jetrockets/eslint-config/packages/1134972)
@@ -80,6 +78,7 @@ A package for basic configuration of typescript code
 <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Let's make the best linter ever! Any contributions you make are **greatly appreciated**.

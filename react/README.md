@@ -4,10 +4,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/jetrockets/eslint-config">
-    <img src="https://github.com//jetrockets/eslint-config/raw/master/react/images/logo.png" alt="Logo" width="480">
+    <img src="https://github.com/jetrockets/eslint-config/raw/master/images/react-pkg-logo.png" alt="Logo" width="480">
   </a>
 
-  <h3 align="center">JetRockets Standarts</h3> 
+  <h3 align="center">JetRockets Standarts</h3>
 
   <p align="center">
     A react lint configuration for your JetRockets projects
@@ -19,11 +19,12 @@
 </div>
 <br />
 
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 A package for react linter configuration of javascript code
+
 1. Install package
    ```sh
    npm install @jetrockets/eslint-config-base@latest @jetrockets/eslint-config-react@latest
@@ -40,9 +41,10 @@ A package for react linter configuration of javascript code
     ...
    }
    ```
-<p align="right">(<a href="#top">back to top</a>)</p>
+   <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Let's make the best linter ever! Any contributions you make are **greatly appreciated**.
