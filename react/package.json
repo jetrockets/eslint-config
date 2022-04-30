@@ -1,12 +1,12 @@
 {
   "name": "@jetrockets/eslint-config-react",
-  "version": "0.0.211",
+  "version": "0.0.22",
   "description": "React eslint configuration for JetRockets workspace.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":"https://github.com/jetrockets/eslint-config.git",
+  "repository": "https://github.com/jetrockets/eslint-config.git",
   "keywords": [
     "eslint",
     "eslintconfig"
@@ -18,10 +18,15 @@
   },
   "homepage": "https://github.com/jetrockets/eslint-config#readme",
   "dependencies": {
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2"
   }
 }
