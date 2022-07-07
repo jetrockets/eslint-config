@@ -13,9 +13,12 @@ module.exports = {
   plugins: ['react'],
 
   rules: {
+    'react-hooks/exhaustive-deps': 1,
+    'jsx-quotes': ['error', 'prefer-double'],
+    'comma-dangle': 'off',
+    quotes: ['error', 'single', { avoidEscape: true }],
     'react/display-name': 0,
     'value-keyword-case': 0,
-    'react-hooks/exhaustive-deps': 0,
     'react/react-in-jsx-scope': 0,
     'jsx-quotes': ['error', 'prefer-single'],
     'import/order': [
