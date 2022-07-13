@@ -1,6 +1,6 @@
 {
   "name": "@jetrockets/eslint-config-react",
-  "version": "0.0.222",
+  "version": "0.0.23",
   "description": "React eslint configuration for JetRockets workspace.",
   "main": "index.js",
   "scripts": {

@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
     // project options
-    "lib": [
-      "ESNext",
-      "dom"
-    ], // specifies which default set of type definitions to use ("DOM", "ES6", etc)
+    "lib": ["ESNext", "dom"], // specifies which default set of type definitions to use ("DOM", "ES6", etc)
     "outDir": "lib", // .js (as well as .d.ts, .js.map, etc.) files will be emitted into this directory.,
     "removeComments": true, // Strips all comments from TypeScript files when converting into JavaScript- you rarely read compiled code so this saves space
     "target": "ES6", // Target environment. Most modern browsers support ES6, but you may want to set it to newer or older. (defaults to ES3)
@@ -32,7 +29,5 @@
     "noUnusedParameters": true // Report errors on unused parameters in functions
   },
   "include": ["./**/*.ts"],
-  "exclude": [
-    "node_modules/**/*"
-  ]
+  "exclude": ["node_modules/**/*"]
 }

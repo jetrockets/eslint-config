@@ -20,7 +20,6 @@ module.exports = {
     'react/display-name': 0,
     'value-keyword-case': 0,
     'react/react-in-jsx-scope': 0,
-    'jsx-quotes': ['error', 'prefer-single'],
     'import/order': [
       'error',
       {
@@ -46,7 +45,7 @@ module.exports = {
     react: { version: 'detect' },
     'import/resolver': {
       node: {
-        moduleDirectory: ['node_modules', ''],
+        moduleDirectory: ['node_modules', '', 'src/'],
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     }
