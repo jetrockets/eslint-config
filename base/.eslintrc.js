@@ -48,7 +48,7 @@ module.exports = {
     'block-spacing': [2, 'always'],
     'comma-spacing': 'error',
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
-    'comma-dangle': ['error', 'never'],
+    'comma-dangle': 'off',
     'import/order': [
       'error',
       {
