@@ -10,7 +10,8 @@ module.exports = {
     'plugin:import/warnings'
   ],
   plugins: [
-    'import'
+    'import',
+    '@cspell'
   ],
   overrides: [
     {
@@ -31,6 +32,14 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'off',
+
+    '@cspell/spellchecker': [
+      'warn',
+      {
+        checkComments: false
+      }
+    ],
+
     'import/order': [
       'error',
       {

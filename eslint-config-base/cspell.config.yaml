@@ -1,0 +1,8 @@
+words:
+  - allowlist
+
+flagWords:
+  - blacklist->allowlist
+
+suggestWords:
+  - colour->color
