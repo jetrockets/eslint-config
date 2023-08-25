@@ -5,7 +5,6 @@ module.exports = {
   },
   extends: [
     'standard',
-    'prettier',
     'plugin:import/recommended',
     'plugin:import/errors',
     'plugin:import/warnings'
