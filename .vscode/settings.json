@@ -2,9 +2,12 @@
   "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
   "editor.formatOnSave": true,
 
-  "prettier.requireConfig": true,
+  // "prettier.requireConfig": true,
 
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
 
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
