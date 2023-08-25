@@ -1,17 +1,16 @@
 {
-  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
-  "editor.formatOnSave": true,
-
-  // "prettier.requireConfig": true,
-
-  // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
+
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.validate": [
+    "javascript",
+    "html",
+    "json"
+  ],
 
   "files.exclude": {
     "**/node_modules/*": true,

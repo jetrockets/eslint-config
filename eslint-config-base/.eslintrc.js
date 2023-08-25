@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: [
     'standard',
@@ -11,32 +11,48 @@ module.exports = {
   ],
   plugins: [
     'import',
+    '@html-eslint',
+    'json-format',
     '@cspell'
   ],
   overrides: [
     {
       env: {
-        node: true
+        node: true,
       },
       files: [
         '.eslintrc.{js,cjs}'
       ],
       parserOptions: {
-        sourceType: 'script'
-      }
+        sourceType: 'script',
+      },
+    },
+    {
+      files: ['*.html'],
+      parser: '@html-eslint/parser',
+      extends: ['plugin:@html-eslint/recommended'],
     }
   ],
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   rules: {
+    indent: ['error', 2],
     'prettier/prettier': 'off',
+
+    'comma-dangle': ['error', {
+      objects: 'always',
+      arrays: 'never',
+      imports: 'never',
+      exports: 'never',
+      functions: 'never',
+    }],
 
     '@cspell/spellchecker': [
       'warn',
       {
-        checkComments: false
+        checkComments: false,
       }
     ],
 
@@ -52,9 +68,9 @@ module.exports = {
         ],
         alphabetize: {
           order: 'asc',
-          caseInsensitive: true
-        }
+          caseInsensitive: true,
+        },
       }
-    ]
-  }
+    ],
+  },
 }
