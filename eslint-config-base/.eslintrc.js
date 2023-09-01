@@ -7,7 +7,8 @@ module.exports = {
     'standard',
     'plugin:import/recommended',
     'plugin:import/errors',
-    'plugin:import/warnings'
+    'plugin:import/warnings',
+    'prettier'
   ],
   plugins: [
     'import',
@@ -25,6 +26,10 @@ module.exports = {
       ],
       parserOptions: {
         sourceType: 'script',
+        project: true,
+      },
+      rules: {
+        '@typescript-eslint/strict-boolean-expressions': 'off',
       },
     },
     {
@@ -33,13 +38,16 @@ module.exports = {
       extends: ['plugin:@html-eslint/recommended'],
     }
   ],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-  },
   rules: {
+    //   "semi": [2, "always"],
+    //   "space-before-function-paren": ["error", {
+    //     "anonymous": "never",
+    //     "named": "never",
+    //     "asyncArrow": "always"
+    // }],
+
     indent: ['error', 2],
-    'prettier/prettier': 'off',
+    // 'prettier/prettier': 'off',
 
     'comma-dangle': ['error', {
       objects: 'always',

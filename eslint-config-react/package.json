@@ -1,7 +1,7 @@
 {
-  "name": "@jetrockets/eslint-config-typescript",
-  "version": "0.1.2",
-  "description": "Base typescript eslint format",
+  "name": "@jetrockets/eslint-config-react",
+  "version": "0.1.0",
+  "description": "Base react eslint format",
   "homepage": "https://github.com/jetrockets/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/jetrockets/eslint-config/issues"
@@ -17,9 +17,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/eslint-parser": "^7.22.11",
     "@jetrockets/eslint-config-base": "file:/Users/ivanmerkushkin/workspace/jetrockets-eslint/eslint-config/eslint-config-base/jetrockets-eslint-config-base-0.1.2.tgz",
-    "eslint-config-standard-with-typescript": "^38.0.0",
-    "eslint-import-resolver-typescript": "^3.6.0",
-    "typescript": "^5.2.2"
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-config-standard-react": "^13.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.33.2"
   }
 }
