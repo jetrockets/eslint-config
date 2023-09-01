@@ -1,34 +1,20 @@
 module.exports = {
-  // parser: '@typescript-eslint/parser',
-  plugins: ['import'],
+  parser: '@babel/eslint-parser',
   extends: [
     '@jetrockets/base'
   ],
+  plugins: ['react'],
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
-      extends: 'standard-with-typescript',
-      parserOptions: {
-        project: true,
-      },
-      rules: {
-        '@typescript-eslint/explicit-function-return-type': 'off',
-      },
+      files: ['*.jsx', '*.tsx'],
+      extends: [
+        'standard-jsx',
+        'standard-react'
+      ],
     }
   ],
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
-    'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
-        project: true,
-      },
-      node: true,
-    },
-  },
   rules: {
+    'import/no-unresolved': 'error',
     'import/order': [
       'error',
       {
@@ -53,5 +39,13 @@ module.exports = {
         },
       }
     ],
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        moduleDirectory: ['node_modules', '', 'src/'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
 }
