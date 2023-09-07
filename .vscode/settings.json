@@ -6,11 +6,11 @@
   "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "eslint.validate": [
-    "javascript",
-    "html",
-    "json"
-  ],
+
+  "eslint.validate": ["javascript", "html", "json"],
+  
+  "prettier.requireConfig": true,
+  "prettier.configPath": "./.prettierrc.js",
 
   "files.exclude": {
     "**/node_modules/*": true,
