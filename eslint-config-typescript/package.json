@@ -1,0 +1,28 @@
+{
+  "name": "@jetrockets/eslint-config-typescript",
+  "version": "0.1.0",
+  "description": "Base typescript eslint format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetrockets/eslint-config.git"
+  },
+  "author": "Maksim Romanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jetrockets/eslint-config/issues"
+  },
+  "homepage": "https://github.com/jetrockets/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-standard-with-typescript": "^38.0.0",
+    "eslint-import-resolver-typescript": "^3.6.0"
+  },
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.19.1",
+    "@jetrockets/eslint-config-base": "file:/Users/maksimromanov/workspace/jetrockets/eslint-config/eslint-config-base/jetrockets-eslint-config-base-0.1.0.tgz",
+    "typescript": "^5.2.2"
+  }
+}
